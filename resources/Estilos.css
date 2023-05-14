@@ -56,18 +56,79 @@ body {
   position: relative;
   overflow: hidden;
 }
-
+.imagen-4 {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+}
 banner-img {
   position: absolute;
   top: 0;
   left: -100px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+input:invalid,
+textarea:invalid {
+  border-color: #d00;
+}
+
+input:valid,
+textarea:valid {
+  border-color: #090;
+}
 .consultorio-cannabico h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
+.boton-arriba {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 26px;
+  margin: 20px;
+}
+.boton-arriba:hover {
+  background-color: #3e8e41;
+}
 .consultorio-cannabico p {
   font-size: 18px;
   margin-bottom: 30px;
