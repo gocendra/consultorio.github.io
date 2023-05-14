@@ -47,7 +47,50 @@ body {
     align-items: center;
     margin: 20px;
   }
-  
+  .consultorio-cannabico {
+  background-color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+banner-img {
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+
+.consultorio-cannabico h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.consultorio-cannabico p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.consultorio-cannabico ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.consultorio-cannabico li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.consultorio-cannabico li:before {
+  content: "•";
+  margin-right: 10px;
+  color: #8bc34a;
+}
+
   section {
     margin-bottom: 20px;
   }
@@ -64,8 +107,41 @@ body {
     max-width: 100%;
     height: 70%;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
+  } 
+.consultorio-cannabico {
+  background-color: #159909;
+  padding: 50px;
+  text-align: center;
+}
+
+.consultorio-cannabico h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.consultorio-cannabico p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.consultorio-cannabico ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.consultorio-cannabico li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.consultorio-cannabico li:before {
+  content: "•";
+  margin-right: 10px;
+  color: #8bc34a;
+  padding: 10px;
+  margin-bottom: 20px;
   }
 
   article h1 {
