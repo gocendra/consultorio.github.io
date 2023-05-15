@@ -15,6 +15,16 @@ body {
     color: #fff;
     padding: 20px;
   }
+  .imagen11 {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
   
   header h1 {
     margin: 0;
@@ -40,12 +50,20 @@ body {
     font-weight: bold;
   }
   
-  /* Estilos para el contenido principal */
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+  }
+  .contenido {
+    margin-bottom: 10px;
+  }
+  .contenido1 {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+  
   }
   .consultorio-cannabico {
   background-color: #f1f1f1;
@@ -175,7 +193,14 @@ textarea:valid {
   section {
     margin-bottom: 20px;
   }
-  
+.article1 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 800px;
+    
+}  
   article {
     background-color: #fff;
     border: 1px solid #ccc;
