@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon"  href="resources/favicon.ico" type="image/png" sizes="16px x 16px">
     <link rel="stylesheet" href="resources/Estilos.css">
-    <script src="js/carrusel.js"></script>
-    <script src="js/all.min.js"></script>
-    <script src="js/inicio.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-dS+oUsmKW0FyvIKJaJ+Z9cxoz43zWZ5nEzjT9Qb0NNHxWk9e5pyU5ZF1Xz++ixg0n/dGQIwd4yTnQ11BCByOwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>C.C.</title>
 </head>
@@ -26,15 +23,30 @@
     </nav>
   
     <main> 
-        <img src="img/Imagen.png" alt="Descripción de la imagen">
-        <section class="slider">
-            <div class="slides">
-              <img src="/img/Imagen1.png" alt="Imagen 1">
-              <img src="/img/imagen2.png" alt="Imagen 2">
-              <img src="/img/Imagen3.png" alt="Imagen 3">
-              <img src="/img/Imagen4.png" alt="Imagen 4">
+        <img src="/img/imagen2.png" style="display: none">
+        <img src="/img/Imagen3.png" style="display: none">
+        <img src="/img/Imagen4.png" style="display: none">
+        <div class="carousel-container">
+            <button class="before" id="before" role="button"><i class="fa-solid fa-angle-left"></i></button>
+    
+            <div class="carousel" id="carousel">
+                <div class="image image1">
+                    <img src="/img/imagen2.png" alt="">
+                </div>
+                <div class="image image2">
+                    <img src="/img/Imagen3.png" alt="">
+                </div>
+                <div class="image image3">
+                    <img src="/img/Imagen4.png" alt="">
+                </div>
+                <div class="image image4">
+                    <img src="/img/Imagen.png" alt="">
+                </div>
             </div>
-          </section>
+    
+            <button class="next" id="next" role="button"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        
         <section class="cannabis-section">
             <div class="container">
               <div class="row">
@@ -91,6 +103,8 @@
  </main>
 
 <footer> Fue una produccion del grupo 8 codo a codo </footer>
-
+    <script src="js/carrusel.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/inicio.js"></script>
 </body>
 </html>
