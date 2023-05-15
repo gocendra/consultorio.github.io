@@ -52,6 +52,7 @@ body {
   padding: 50px;
   text-align: center;
 }
+
 .banner {
   position: relative;
   overflow: hidden;
@@ -328,6 +329,7 @@ textarea:valid {
     flex-wrap: nowrap;
     overflow: hidden;
     width:600px;
+    height: 100%;
     scroll-behavior: smooth;
 }
 
