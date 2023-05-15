@@ -1,1 +1,1 @@
-alert("¡Bienvenido a Consultorio Cannábivo.");
+alert("Bienvenido a Consultorio Cannábivo.");
