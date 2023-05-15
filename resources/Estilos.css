@@ -21,9 +21,6 @@ body {
     height: 600px;
     justify-content: center;
     align-items: center;
-    
-    
-    
   }
   
   header h1 {
@@ -60,7 +57,7 @@ body {
     margin-bottom: 10px;
   }
   .contenido1 {
-    width: 150px;
+    width: auto;
     height: auto;
     margin-top: 20px;
   
