@@ -205,7 +205,7 @@ textarea:valid {
   }
   
   .social-buttons a:hover {
-    transform: scale(1.2);
+    transform: scale(1.6);
   }
   img {
     max-width: 100%;
