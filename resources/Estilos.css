@@ -198,6 +198,12 @@ textarea:valid {
     max-width: 800px;
     
 }  
+.article2 {
+  background-color: #fff;
+  padding: 50px;
+  max-width: 800px;
+  
+}  
   article {
     background-color: #fff;
     border: 1px solid #ccc;
