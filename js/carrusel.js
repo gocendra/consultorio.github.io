@@ -19,7 +19,11 @@ next.addEventListener("click",(e)=>{
 before.addEventListener("click",()=>{
     let carouselWidth = carousel.clientWidth;
     carousel.scrollLeft -= carouselWidth;
-    if(contador > 1 ){
+    if(contador > 0 ){
         contador--;
+    }
+    if (contador == 0) {
+        carousel.scrollLeft = carousel.clientWidth * (carouselImages.length);
+        contador = carouselImages.length;
     }
 })
