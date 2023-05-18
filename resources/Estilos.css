@@ -375,3 +375,38 @@ textarea:valid {
 .carousel-container .carousel .image img{
     width: 100%;
 }
+
+  @media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  nav a {
+    flex-basis: 50%;
+  }
+
+  article p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .article1 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
