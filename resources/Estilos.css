@@ -1,74 +1,95 @@
 /* Estilos para el cuerpo de la página */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
   
-  /* Estilos para el encabezado */
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #158012;
-    color: #fff;
-    padding: 20px;
-  }
-  .imagen11 {
-    display: flex;
-    width: 600px;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-  }
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #158012;
+  color: #fff;
+  padding: 20px;
+}
+.imagen11 {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
   
-  header h1 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: bold;
-  }
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
   
   /* Estilos para la navegación */
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #106c88;
-    color: #fff;
-    padding: 20px;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #106c88;
+  color: #fff;
+  padding: 20px;
+}
+.box-1{
+  box-shadow: inset 8px 10px 10px 7px rgba(0,0,0,0.5);
+}
+  .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .contenedor-campos {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      column-gap: 1rem;
+      grid-template-rows: auto auto 20rem;
   }
+}
+@media (min-width: 768px) {
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
   
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-  }
-  .enlaces {
-    color: #4b9407; 
-    text-decoration: none;
-    display: inline-block;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.enlaces {
+  color: #4b9407; 
+  text-decoration: none;
+  display: inline-block;
     
-  }
-  .contenido {
-    margin-bottom: 10px;
-  }
-  .contenido1 {
-    width: auto;
-    height: auto;
-    margin-top: 20px;
+}
+.contenido {
+  margin-bottom: 10px;
+}
+.contenido1 {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
   
-  }
-  .consultorio-cannabico {
+}
+.consultorio-cannabico {
   background-color: #f1f1f1;
   padding: 50px;
   text-align: center;
@@ -193,9 +214,9 @@ textarea:valid {
   color: #8bc34a;
 }
 
-  section {
-    margin-bottom: 20px;
-  }
+section {
+  margin-bottom: 20px;
+}
 .article1 {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -212,42 +233,42 @@ textarea:valid {
   max-width: 800px;
   
 }  
-  article {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 50px;
-    max-width: 800px;
-    margin-top: -140px
-  }
-  .social-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+article {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  max-width: 800px;
+  margin-top: -140px
+}
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.social-buttons a {
+  display: block;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
   
-  .social-buttons a {
-    display: block;
-    margin: 0 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    transition: all 0.3s ease;
-  }
-  
-  .social-buttons a:hover {
-    transform: scale(1.6);
-  }
-  img {
-    max-width: 100%;
-    height: 70%;
-    border: 1px solid #ccc;
-  } 
+.social-buttons a:hover {
+  transform: scale(1.6);
+}
+img {
+  max-width: 100%;
+  height: 70%;
+  border: 1px solid #ccc;
+} 
 .consultorio-cannabico {
   background-color: #159909;
   padding: 50px;
@@ -282,104 +303,104 @@ textarea:valid {
   color: #8bc34a;
   padding: 10px;
   margin-bottom: 20px;
-  }
+}
 
-  article h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
+article h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
   
-  article p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
+article p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
   
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  .cannabis-section {
-    background-color: #e0dada;
-    padding: 50px 0;
-  }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.cannabis-section {
+  background-color: #e0dada;
+  padding: 50px 0;
+}
   
-  .cannabis-section h2 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
+.cannabis-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
   
-  .cannabis-section p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.5;
-  }
+.cannabis-section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
   
-  .cannabis-section img {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  .cannabis-section h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-  }
+.cannabis-section img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.cannabis-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
     
-    .cannabis-section p {
-      font-size: 14px;
-    }
+.cannabis-section p {
+  font-size: 14px;
+}
   
-  .carousel-container{
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin: auto;
-    width: 600px;
-    height: 100vh;
+.carousel-container{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 100vh;
     
 }
 
 .carousel-container button{
-    border: none;
-    color: #fff;
-    padding: 40px 20px;
-    background: rgba(0,0,0,0.5);
-    transition: .3s all ease;
-    cursor: pointer;
-    position: absolute;
-    z-index: 1000;
+  border: none;
+  color: #fff;
+  padding: 40px 20px;
+  background: rgba(0,0,0,0.5);
+  transition: .3s all ease;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
 }
 
 .carousel-container button:hover{
-    background: #000;
+  background: #000;
 }
 
 .carousel-container .before{
-    left: 0;
+  left: 0;
 }
 
 .carousel-container .next{
-    right: 0;
+  right: 0;
 }
 
 .carousel-container .carousel{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    width:600px;
-    height: 100%;
-    scroll-behavior: smooth;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width:600px;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 .carousel-container .carousel .image{
-    min-width: 100%;
+  min-width: 100%;
 }
 
 .carousel-container .carousel .image img{
-    width: 100%;
+  width: 100%;
 }
