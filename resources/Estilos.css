@@ -32,7 +32,7 @@ header h1 {
   /* Estilos para la navegación */
 nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #106c88;
@@ -42,9 +42,9 @@ nav {
 .box-1{
   box-shadow: inset 8px 10px 10px 7px rgba(0,0,0,0.5);
 }
-  .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .contenedor-campos {
@@ -55,8 +55,8 @@ nav {
   }
 }
 @media (min-width: 768px) {
-    .nav{
-        flex-direction: column;
+    .contenedor{
+        flex-direction: row;
         justify-content: space-around;
     }
 }
@@ -67,7 +67,15 @@ nav a {
   font-size: 1.2rem;
   font-weight: bold;
 }
-  
+@media (max-width: 768px) {
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+}  
 main {
   display: flex;
   flex-direction: column;
