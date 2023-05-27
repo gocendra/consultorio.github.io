@@ -1,3 +1,6 @@
+html{
+scroll-behavior: smooth;
+}
 /* Estilos para el cuerpo de la página */
 body {
   margin: 0;
@@ -5,6 +8,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
 }
+
 .span1 {
   display:  flex;
   justify-content: center;
