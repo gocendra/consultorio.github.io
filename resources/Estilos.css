@@ -1,9 +1,9 @@
 html{
   scroll-behavior: smooth;
-  cursor: url(/img/cursor.png), auto;
+  cursor: url(img/cursor.png), auto;
 }
 a:hover{
-  cursor: url(/img/hand.png),auto;
+  cursor: url(img/hand.png),auto;
 }
 /* Estilos para el cuerpo de la página */
 body {
