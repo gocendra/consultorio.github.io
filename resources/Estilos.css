@@ -432,7 +432,10 @@ footer {
   height: 100%;
   scroll-behavior: smooth;
 }
-
+.boton {
+  width: auto;
+  height: 50px;
+}
 .carousel-container .carousel .image{
   min-width: 100%;
 }
