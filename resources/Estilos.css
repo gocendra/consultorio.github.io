@@ -424,6 +424,25 @@ footer {
 .carousel-container .carousel .image img{
   width: 100%;
 }
+@media (max-width: 600px) {
+  .carousel-container {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-container .carousel {
+    height: auto;
+  }
+  
+  .carousel-container .carousel .imagen-2 .image {
+    min-width: 0;
+    width: 100%;
+  }
+  
+  .carousel-container button {
+    padding: 20px 10px;
+  }
+}
 #overlay {
   position: fixed;
   top: 0;
