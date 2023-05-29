@@ -117,6 +117,11 @@ main {
   position: relative;
   overflow: hidden;
 }
+.imagen-3 {
+  width: 300px;
+  height: 300px;
+  padding: 100px;
+}
 .imagen-4 {
   width: 300px;
   height: 300px;
