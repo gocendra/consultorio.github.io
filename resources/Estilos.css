@@ -365,6 +365,11 @@ article p {
   line-height: 1.5;
   margin-bottom: 10px;
   }
+  article h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
 }
 footer {
   background-color: #333;
