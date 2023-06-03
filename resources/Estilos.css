@@ -97,17 +97,17 @@ main {
 .enlaces {
   display: inline-block;
   padding: 10px 10px;
-  background-color: green;
+  background-color: rgb(27, 207, 27);
   color: white;
   text-decoration: none;
-  border: 1px solid darkgreen;
+  border: 1px solid rgb(16, 56, 3);
   border-radius: 4px;
   /* color: #4b9407; 
   text-decoration: none;
   display: inline-block; */
 }
 .enlaces:hover {
-  background-color: darkgreen;
+  background-color: rgb(10, 66, 10);
 }
 .contenido {
   margin-bottom: 10px;
