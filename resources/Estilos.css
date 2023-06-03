@@ -95,10 +95,19 @@ main {
   margin: 20px;
 }
 .enlaces {
-  color: #4b9407; 
-  text-decoration: none;
   display: inline-block;
-    
+  padding: 10px 10px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 1px solid darkgreen;
+  border-radius: 4px;
+  /* color: #4b9407; 
+  text-decoration: none;
+  display: inline-block; */
+}
+.enlaces:hover {
+  background-color: darkgreen;
 }
 .contenido {
   margin-bottom: 10px;
