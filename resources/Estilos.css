@@ -112,6 +112,7 @@ main {
 }
 a:hover {
   transform: scale(1.6);
+  font-size: 14px;
   background-color: rgb(44, 223, 44);
   box-shadow: inset 8px 10px 10px 7px rgba(235, 73, 10, 0.5);
   border-radius: 20px;
