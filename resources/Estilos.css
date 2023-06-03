@@ -94,6 +94,7 @@ main {
   align-items: center;
   margin: 20px;
 }
+
 .enlaces {
   display: inline-block;
   padding: 10px 10px;
@@ -108,6 +109,13 @@ main {
 }
 .enlaces:hover {
   background-color: rgb(10, 66, 10);
+}
+a:hover {
+  transform: scale(1.6);
+  background-color: rgb(44, 223, 44);
+  box-shadow: inset 8px 10px 10px 7px rgba(235, 73, 10, 0.5);
+  border-radius: 20px;
+  padding: 5px;
 }
 .contenido {
   margin-bottom: 10px;
@@ -315,6 +323,8 @@ article {
   
 .social-buttons a:hover {
   transform: scale(1.6);
+  background-color: #090;
+  box-shadow: inset 8px 10px 10px 7px rgba(224, 33, 7, 0.5);
 }
 img {
   max-width: 100%;
